@@ -1,4 +1,4 @@
-// /path/to/phantomjs github.js即可
+// /path/to/phantomjs phantom.js即可
 // 不知为啥：var link='http://github.com/';ReferenceError: Can't find variable: Promise
 var page = require('webpage').create();
 var link='http://www.siguoya.name/';
